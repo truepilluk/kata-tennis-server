@@ -25,7 +25,7 @@ There is additional extension functionality the client would like if time allows
 
 The client has specified they need the data for the game in the following format:
 
-```json
+```javascript
 {
   "id": 0, // NB: Does not need to be an integer but should uniquely identify the game
   "winner": null,
