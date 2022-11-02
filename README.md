@@ -18,7 +18,7 @@ This list is not meant to be exhaustive, nor is it meant to be a checklist which
 Imagine you have been asked to create an API to track tennis games at a local club. The client would like a prototype for a demo this afternoon. They are expecting to see the following functionality as a minimum:
 
 1. The ability to start a new game
-2. The ability to increment the score of the game as points are played, following the standard rules of tennis\*
+2. The ability to increment the score of the game as points are played, following the standard [rules of tennis](/TENNIS_RULES.md)
 3. The ability to retrieve the score of a game
 
 There is additional extension functionality the client would like if time allows but the client will be happy with the above as a minimum
@@ -48,8 +48,6 @@ A completed game should be signified by recording the winner as follows:
   ]
 }
 ```
-
-\*_The rules for scoring tennis are provided [here](/TENNIS_RULES.md)_
 
 ### Extension ideas
 
