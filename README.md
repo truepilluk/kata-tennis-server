@@ -15,19 +15,19 @@ This list is not meant to be exhaustive, nor is it meant to be a checklist which
 
 ## The Task
 
-Imagine you have been asked to create an API to track tennis games at a local club. The client would like a prototype for a demo this afternoon. They are expecting to see the following functionality as a minimum:
+Imagine you have been asked to create an API to track tennis matches at a local club. The client would like a prototype for a demo this afternoon. They are expecting to see the following functionality as a minimum:
 
-1. The ability to start a new game
-2. The ability to increment the score of the game as points are played, following the standard [rules of tennis](/TENNIS_RULES.md)
-3. The ability to retrieve the score of a game
+1. The ability to start a new match
+2. The ability to increment the score of the match as points are played, following the standard [rules of tennis](/TENNIS_RULES.md)
+3. The ability to retrieve the score of a match
 
 There is additional extension functionality the client would like if time allows but the client will be happy with the above as a minimum
 
-The client has specified they need the data for the game in the following format:
+The client has specified they need the data for the match in the following format:
 
 ```jsonc
 {
-  "id": 0, // NB: Does not need to be an integer but should uniquely identify the game
+  "id": 0, // NB: Does not need to be an integer but should uniquely identify the match
   "winner": null,
   "scores": [
     { "player": "Alice", "points": "15" },
@@ -54,7 +54,7 @@ A completed game should be signified by recording the winner as follows:
 If you complete the above features with time to spare, some additional features you may wish to have a go at implementing might be:
 
 - Validating request bodies
-- Counting the number of completed rallies in a game
+- Counting the number of points played in a game
 - Persistent data storage
 - Scoring across games & sets
 
