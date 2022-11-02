@@ -26,8 +26,21 @@ There is additional extension functionality the client would like if time allows
 The client has specified they need the data for the game in the following format:
 
 ```json
-[
+{
+  "winner": null,
+  { "player": "Alice", "score": "15" },
+  { "player": "Bob", "score": "40" }
+}
+```
+
+A completed game should be signified by recording the winner as follows:
+
+```json
+{
+  "winner": "Alice",
   { "player": "Alice", "score": "A" },
   { "player": "Bob", "score": "40" }
-]
+}
 ```
+
+\*_The rules for scoring tennis are provided [here](/TENNIS_RULES.md)_
