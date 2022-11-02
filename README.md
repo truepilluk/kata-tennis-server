@@ -30,8 +30,8 @@ The client has specified they need the data for the game in the following format
   "id": 0, // NB: Does not need to be an integer but should uniquely identify the game
   "winner": null,
   "scores": [
-    { "player": "Alice", "score": "15" },
-    { "player": "Bob", "score": "40" }
+    { "player": "Alice", "points": "15" },
+    { "player": "Bob", "points": "40" }
   ]
 }
 ```
@@ -43,8 +43,8 @@ A completed game should be signified by recording the winner as follows:
   "id": 1,
   "winner": "Alice",
   "scores": [
-    { "player": "Alice", "score": "A" },
-    { "player": "Bob", "score": "40" }
+    { "player": "Alice", "points": "A" },
+    { "player": "Bob", "points": "40" }
   ]
 }
 ```
