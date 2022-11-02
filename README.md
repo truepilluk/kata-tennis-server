@@ -1,6 +1,6 @@
 # Tennis Server Kata
 
-The purpose of this kata is to allow you to demonstrate skills that will hopefully be relevant to your role at Truepill. 
+The purpose of this kata is to allow you to demonstrate skills that will hopefully be relevant to your role at Truepill.
 
 Things we like to see:
 - Test Driven Development or similar evidence of testing
