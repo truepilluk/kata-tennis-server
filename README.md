@@ -51,6 +51,15 @@ A completed game should be signified by recording the winner as follows:
 
 \*_The rules for scoring tennis are provided [here](/TENNIS_RULES.md)_
 
+### Extension ideas
+
+If you complete the above features with time to spare, some additional features you may wish to have a go at implementing might be:
+
+- Validating request bodies
+- Counting the number of completed rallies in a game
+- Persistent data storage
+- Scoring across games & sets
+
 ## Useful commands
 
 The project has been configured with a couple of useful commands to help get you started:
