@@ -60,6 +60,8 @@ If you complete the above features with time to spare, some additional features 
 - Persistent data storage
 - Scoring across games & sets
 
+---
+
 ## Useful commands
 
 The project has been configured with a couple of useful commands to help get you started:
