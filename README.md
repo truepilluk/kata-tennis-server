@@ -27,6 +27,7 @@ The client has specified they need the data for the game in the following format
 
 ```json
 {
+  "id": 0, // NB: Does not need to be an integer but should uniquely identify the game
   "winner": null,
   "scores": [
     { "player": "Alice", "score": "15" },
@@ -39,6 +40,7 @@ A completed game should be signified by recording the winner as follows:
 
 ```json
 {
+  "id": 1,
   "winner": "Alice",
   "scores": [
     { "player": "Alice", "score": "A" },
