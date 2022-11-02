@@ -3,6 +3,7 @@
 The purpose of this kata is to allow you to demonstrate skills that will hopefully be relevant to your role at Truepill.
 
 Things we like to see:
+
 - Test Driven Development or similar evidence of testing
 - Good API design principles
 - Ability to follow a specification
@@ -17,7 +18,7 @@ This list is not meant to be exhaustive, nor is it meant to be a checklist which
 Imagine you have been asked to create an API to track tennis games at a local club. The client would like a prototype for a demo this afternoon. They are expecting to see the following functionality as a minimum:
 
 1. The ability to start a new game
-2. The ability to increment the score of the game as points are played, following the standard rules of tennis*
+2. The ability to increment the score of the game as points are played, following the standard rules of tennis\*
 3. The ability to retrieve the score of a game
 
 There is additional extension functionality the client would like if time allows but the client will be happy with the above as a minimum
@@ -26,7 +27,7 @@ The client has specified they need the data for the game in the following format
 
 ```json
 [
-    { "player": "Alice", "score": "A" },
-    { "player": "Bob", "score": "40" }
+  { "player": "Alice", "score": "A" },
+  { "player": "Bob", "score": "40" }
 ]
 ```
