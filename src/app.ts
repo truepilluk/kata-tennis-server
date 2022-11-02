@@ -3,16 +3,6 @@ import bodyParser from 'koa-bodyparser';
 
 export const app = new Application();
 
-app.use(async (ctx, next) => {
-  await next();
-
-  console.log(
-    `${new Date().toISOString()} ${ctx.method} ${ctx.path} ${
-      ctx.status
-    } Request handled`
-  );
-});
-
 app.use(bodyParser());
 
 app.use((ctx) => {
