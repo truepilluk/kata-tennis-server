@@ -2,12 +2,13 @@
   "name": "kata-tennis-server",
   "version": "1.0.0",
   "description": "A kata assessment used for interviews",
-  "main": "src/index.ts",
+  "main": "dist/index.js",
   "author": "Scott Arden-Jones <scott@truepill.com>",
   "license": "UNLICENSED",
   "private": true,
   "scripts": {
     "build": "tsc",
+    "start": "node .",
     "test": "jest --watch"
   },
   "devDependencies": {
