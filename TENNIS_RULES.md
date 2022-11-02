@@ -31,4 +31,4 @@ An example game might continue as follows
 | A | 40 | Player 1
 | 40 | 40 | Player 2
 | 40 | A | Player 2
-| L | W | Player 2
+| 40 | W | Player 2
