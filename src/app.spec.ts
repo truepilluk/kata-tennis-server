@@ -1,17 +1,6 @@
 import supertest from 'supertest';
-import Application from 'koa';
 
-const app = new Application();
-
-app.use((ctx) => {
-  if (ctx.path === '/') {
-    if (ctx.method === 'GET') {
-      ctx.status = 200;
-    } else {
-      ctx.status = 405;
-    }
-  }
-});
+import { app } from './app';
 
 it('should respond to GET / with a 200 status', async () => {
   const res = await supertest(app.callback()).get('/');
