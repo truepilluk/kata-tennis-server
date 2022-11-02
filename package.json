@@ -9,6 +9,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node .",
+    "start:dev": "tsnd src",
     "test": "jest --watch"
   },
   "devDependencies": {
@@ -18,7 +19,8 @@
     "jest": "^29.2.2",
     "prettier": "2.7.1",
     "supertest": "^6.3.1",
-    "ts-jest": "^29.0.3"
+    "ts-jest": "^29.0.3",
+    "ts-node-dev": "^2.0.0"
   },
   "dependencies": {
     "koa": "^2.13.4",
