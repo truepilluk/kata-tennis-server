@@ -50,3 +50,19 @@ A completed game should be signified by recording the winner as follows:
 ```
 
 \*_The rules for scoring tennis are provided [here](/TENNIS_RULES.md)_
+
+## Useful commands
+
+The project has been configured with a couple of useful commands to help get you started:
+
+### `test`
+
+This will run the tests in watch mode using the [jest](https://jestjs.io/docs/getting-started) testing framework.
+
+Feel free to install & use an alternative framework if you wish but note that depending on the framework this may break the existing tests.
+
+### `start:dev`
+
+This will run the HTTP server locally on port `3000`. You may wish to use this with a tool such as Postman to debug issues.
+
+> NB: The project has been configured using [Yarn](https://classic.yarnpkg.com/lang/en/) but should work equally fine with [npm](https://docs.npmjs.com/cli/v7/commands/npm) however YMMV.
