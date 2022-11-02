@@ -43,7 +43,7 @@ A completed game should be signified by recording the winner as follows:
   "id": 1,
   "winner": "Alice",
   "scores": [
-    { "player": "Alice", "points": "A" },
+    { "player": "Alice", "points": "W" },
     { "player": "Bob", "points": "40" }
   ]
 }
